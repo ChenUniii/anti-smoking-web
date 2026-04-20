@@ -1,7 +1,7 @@
 /* JavaScript 邏輯區：負責互動功能 */
 const scenarios = [
     {
-        image: "images/article_445_1_b.jpg",
+        image: "article_445_1_b.jpg",
         title: "🏫 校園角落的「減壓」誘惑",
         text: "下課後，學長在校園角落遞給你一支菸，說「試試看，這能舒緩期中考壓力」，你會？",
         btn1: "接過來抽",
@@ -19,7 +19,7 @@ const scenarios = [
         resRefuse: "✅ <b>堅持底線，保護自己！</b><br>你成功避開了未知的化學危害。真正的朋友會尊重你不吸菸的決定，不需要勉強自己迎合他人。"
     },
     {
-        image: "images/熬夜.jpg",
+        image: "熬夜.jpg",
         title: "🦉 熬夜趕工的提神陷阱",
         text: "連續熬夜好幾天趕報告，覺得精神緊繃到極點，這時室友說「去陽台抽根菸提神吧，我請客」，你會？",
         btn1: "抽一根提神",
@@ -28,7 +28,7 @@ const scenarios = [
         resRefuse: "✅ <b>健康才是最強的後盾！</b><br>用健康的方式放鬆（如喝水、伸展或小睡），報告才能寫得更長遠！"
     },
     {
-        image: "images/images.jpeg",
+        image: "images.jpeg",
         title: "🏠 長輩面前的無聲妥協",
         text: "家庭聚餐時，長輩在客廳直接點起菸來，雖然覺得有點嗆，但你怕破壞氣氛，你會？",
         btn1: "默默忍受",
