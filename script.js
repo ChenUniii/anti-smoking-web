@@ -1,7 +1,6 @@
 /* JavaScript 邏輯區：負責互動功能 */
 const scenarios = [
     {
-        image: "scene1.jpg",
         title: "🏫 校園角落的「減壓」誘惑",
         text: "下課後，學長在校園角落遞給你一支菸，說「試試看，這能舒緩期中考壓力」，你會？",
         btn1: "接過來抽",
@@ -10,7 +9,6 @@ const scenarios = [
         resRefuse: "✅ <b>明智的選擇！</b><br>你省下了 125 元，且維持了乾淨的肺部。這筆錢一年下來可以讓你買到心儀的吉他配件或是一頓大餐！"
     },
     {
-        image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         title: "🍓 派對上的無害謊言？",
         text: "朋友聚會上，大家都在抽電子菸，有人遞給你一支說「這是水果口味的，沒有尼古丁啦，吸一口沒關係」，你會？",
         btn1: "吸一口試試",
@@ -19,7 +17,6 @@ const scenarios = [
         resRefuse: "✅ <b>堅持底線，保護自己！</b><br>你成功避開了未知的化學危害。真正的朋友會尊重你不吸菸的決定，不需要勉強自己迎合他人。"
     },
     {
-        image: "scene3.jpg",
         title: "🦉 熬夜趕工的提神陷阱",
         text: "連續熬夜好幾天趕報告，覺得精神緊繃到極點，這時室友說「去陽台抽根菸提神吧，我請客」，你會？",
         btn1: "抽一根提神",
@@ -28,7 +25,6 @@ const scenarios = [
         resRefuse: "✅ <b>健康才是最強的後盾！</b><br>用健康的方式放鬆（如喝水、伸展或小睡），報告才能寫得更長遠！"
     },
     {
-        image: "scene4.jpg",
         title: "🏠 長輩面前的無聲妥協",
         text: "家庭聚餐時，長輩在客廳直接點起菸來，雖然覺得有點嗆，但你怕破壞氣氛，你會？",
         btn1: "默默忍受",
@@ -78,7 +74,6 @@ function renderScenarios() {
         const card = document.createElement('div');
         card.className = 'game-card';
         card.innerHTML = `
-            <img src="${current.image}" alt="${current.title}" class="scenario-img">
             <h3 style="color: var(--primary-dark);">${current.title}</h3>
             <p style="flex-grow: 1; font-weight: bold; color: #444;">${current.text}</p>
             <div class="btn-box">
